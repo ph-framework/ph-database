@@ -3,7 +3,8 @@
         "connectionError": "Error establishing connection to database [DATABASE]!",
         "connectionSuccess": "Connection to database [DATABASE] established successfully!",
         "functionTimeouted": "The function [FUNCTION] acting on the table [TABLE] called by [RESOURCE] timed out after [TIME]ms",
-        "functionError": "Unable to execute function [FUNCTION] with query:\n[QUERY]"
+        "functionError": "Unable to execute function [FUNCTION] with query:\n[QUERY]",
+        "databaseBackup": "Database backup completed successfully, name: [FILENAME]"
     },
     "debug": {
         "called": "The function [FUNCTION] acting on the table [TABLE] was called by [RESOURCE]",

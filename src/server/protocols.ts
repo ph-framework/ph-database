@@ -1,11 +1,13 @@
 export interface ServerConfig {
-    debug: boolean
-    functionTimeout: number
     host: string
     user: string
     password: string
     database: string
     port: number
+    debug: boolean
+    functionTimeout: number
+    backup: boolean
+    backupInterval: number
 }
 
 export interface Locale {
@@ -14,6 +16,7 @@ export interface Locale {
         connectionSuccess: string
         functionTimeouted: string
         functionError: string
+        databaseBackup: string
     }
     debug: {
         called: string

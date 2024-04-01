@@ -22,6 +22,7 @@
         "typescript": "^5.4.2"
     },
     "dependencies": {
-        "mysql2": "^3.9.2"
+        "mysql2": "^3.9.2",
+        "mysqldump": "^3.2.0"
     }
 }

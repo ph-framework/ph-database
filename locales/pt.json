@@ -3,7 +3,8 @@
         "connectionError": "Erro ao estabelecer conexão com o banco de dados [DATABASE]!",
         "connectionSuccess": "Conexão com o banco de dados [DATABASE] estabelecida com sucesso!",
         "functionTimeouted": "A função [FUNCTION] agindo sobre a tabela [TABLE] chamado por [RESOURCE] expirou após [TIME]ms",
-        "functionError": "Não foi possível executar a função [FUNCTION] com a query:\n[QUERY]"
+        "functionError": "Não foi possível executar a função [FUNCTION] com a query:\n[QUERY]",
+        "databaseBackup": "Backup de banco de dados concluído com sucesso, nome: [FILENAME]"
     },
     "debug": {
         "called": "A função [FUNCTION] agindo sobre a tabela [TABLE] foi chamado por [RESOURCE]",
