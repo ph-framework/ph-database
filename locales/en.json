@@ -1,0 +1,12 @@
+{
+    "logs": {
+        "connectionError": "Error establishing connection to database [DATABASE]!",
+        "connectionSuccess": "Connection to database [DATABASE] established successfully!",
+        "functionTimeouted": "The function [FUNCTION] acting on the table [TABLE] called by [RESOURCE] timed out after [TIME]ms",
+        "functionError": "Unable to execute function [FUNCTION] with query:\n[QUERY]"
+    },
+    "debug": {
+        "called": "The function [FUNCTION] acting on the table [TABLE] was called by [RESOURCE]",
+        "response": "The function [FUNCTION] was responded after [TIME]ms when executing:\n[QUERY]"
+    }
+}

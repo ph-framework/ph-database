@@ -1,0 +1,12 @@
+{
+    "logs": {
+        "connectionError": "¡Error al establecer la conexión con la base de datos [DATABASE]!",
+        "connectionSuccess": "¡La conexión a la base de datos [DATABASE] se estableció exitosamente!",
+        "functionTimeouted": "La función [FUNCTION] que actúa sobre la tabla [TABLE] llamada por [RESOURCE] expiró después de [TIME]ms",
+        "functionError": "No se puede ejecutar la función [FUNCTION] con la query:\n[QUERY]"
+    },
+    "debug": {
+        "called": "La función [FUNCTION] que actúa sobre la tabla [TABLE] fue llamada por [RESOURCE]",
+        "response": "La función [FUNCTION] fue respondida después de [TIME]ms al ejecutarse:\n[QUERY]"
+    }
+}

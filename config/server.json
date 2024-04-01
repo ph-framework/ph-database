@@ -1,0 +1,10 @@
+{
+    "debug": false,
+    "functionTimeout": 10000,
+
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "hubble",
+    "port": 3306
+}
