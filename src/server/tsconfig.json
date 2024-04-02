@@ -10,8 +10,7 @@
         "resolveJsonModule": true,
         "paths": {
             "@server/*": ["./*"],
-            "@modules/*": ["./modules/*"],
-            "@locale/*": ["../../../locale/*"]
+            "@modules/*": ["./modules/*"]
         }
     },
     "include": ["./**/*"],

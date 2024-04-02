@@ -15,7 +15,7 @@ export const createConnection = () => {
     connection.getConnection((error, connect) => {
         if (error) {
             setImmediate(() =>
-                console.log(
+                console.error(
                     locale.logs.connectionError.replace(
                         "[DATABASE]",
                         config.database
